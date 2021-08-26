@@ -1,0 +1,64 @@
+root - INFO - SUCCESS: Read file at ./data/bank_data.csv with 10127 rows
+root - INFO - Testing import_data: SUCCESS
+root - INFO - SUCCESS: Read file at ./data/bank_data.csv with 10127 rows
+root - INFO - Testing import_data: SUCCESS
+root - INFO - Performing exploratory data analysis...
+root - INFO - Creating plot for Churn
+root - INFO - Saving plot for Churn in images/eda/Churn_plot.png
+root - INFO - SUCCESS: EDA plots successfully generated
+root - INFO - Creating plot for Customer_Age
+root - INFO - Saving plot for Customer_Age in images/eda/Customer_Age_plot.png
+root - INFO - SUCCESS: EDA plots successfully generated
+root - INFO - Creating plot for Heat_Map
+root - INFO - Saving plot for Heat_Map in images/eda/Heat_Map_plot.png
+root - INFO - SUCCESS: EDA plots successfully generated
+root - INFO - Creating plot for Marital_Status
+root - INFO - Saving plot for Marital_Status in images/eda/Marital_Status_plot.png
+root - INFO - SUCCESS: EDA plots successfully generated
+root - INFO - Creating plot for Total_Trans_Ct
+root - INFO - Saving plot for Total_Trans_Ct in images/eda/Total_Trans_Ct_plot.png
+root - INFO - SUCCESS: EDA plots successfully generated
+root - INFO - Testing perform_eda: SUCCESS
+root - INFO - SUCCESS: Read file at ./data/bank_data.csv with 10127 rows
+root - INFO - Testing import_data: SUCCESS
+root - INFO - Encoding categorical variable Gender
+root - INFO - Encoding categorical variable Education_Level
+root - INFO - Encoding categorical variable Marital_Status
+root - INFO - Encoding categorical variable Income_Category
+root - INFO - Encoding categorical variable Card_Category
+root - INFO - SUCCESS: Encoding of categorical data complete
+root - INFO - Testing encoder_helper: SUCCESS
+root - INFO - SUCCESS: Read file at ./data/bank_data.csv with 10127 rows
+root - INFO - Testing import_data: SUCCESS
+root - INFO - Encoding categorical variable Gender
+root - INFO - Encoding categorical variable Education_Level
+root - INFO - Encoding categorical variable Marital_Status
+root - INFO - Encoding categorical variable Income_Category
+root - INFO - Encoding categorical variable Card_Category
+root - INFO - SUCCESS: Encoding of categorical data complete
+root - INFO - Testing encoder_helper: SUCCESS
+root - INFO - Performing feature engineering...
+root - INFO - Target feature is: Churn
+root - INFO - Testing test_perform_feature_engineering: SUCCESS
+root - INFO - SUCCESS: Read file at ./data/bank_data.csv with 10127 rows
+root - INFO - Testing import_data: SUCCESS
+root - INFO - Encoding categorical variable Gender
+root - INFO - Encoding categorical variable Education_Level
+root - INFO - Encoding categorical variable Marital_Status
+root - INFO - Encoding categorical variable Income_Category
+root - INFO - Encoding categorical variable Card_Category
+root - INFO - SUCCESS: Encoding of categorical data complete
+root - INFO - Testing encoder_helper: SUCCESS
+root - INFO - Performing feature engineering...
+root - INFO - Target feature is: Churn
+root - INFO - Testing test_perform_feature_engineering: SUCCESS
+root - INFO - Initialising Random Forest classifier...
+root - INFO - Training RFC. Please wait...
+root - INFO - Initialising Logistic Regression...
+root - INFO - Training LR. Please wait...
+root - INFO - Models saved successfully.
+root - INFO - SUCCESS: Saved Random Forest Classification Report
+root - INFO - SUCCESS: Saved Logistic Regression Classification Report
+root - INFO - SUCCESS: Saving plot for feature importance in images/results//feature_importance_plot.jpg
+root - INFO - SUCCESS: Saving plot for ROC in images/results//roc_plot.jpg
+root - INFO - Testing test_train_models: SUCCESS
